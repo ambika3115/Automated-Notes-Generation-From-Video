@@ -14,18 +14,27 @@ Automated Notes Generation From  Video is a system that automatically converts v
 - 💻 User-friendly GUI using Gradio
 
 
-🏗️ System Architecture:
-Input (Audio/Video)
-↓
-Audio Extraction (if video)
-↓
-Speech-to-Text (Whisper)
-↓
-AI Note Generation (LLM)
-↓
-PDF Creation
-↓
-Email Delivery
+🏗️ How It works:
+1. Upload Input: 
+   The user uploads an audio (MP3) or video file through the interface.
+
+2. Audio Processing: 
+   Audio is extracted from video content.
+
+3. Speech-to-Text Conversion:  
+   The system converts audio into text using a speech recognition model.
+
+4. AI-Based Note Generation: 
+   The transcript is processed by an AI model to generate structured notes.
+
+5. Notes Formatting: 
+   The notes are organized into headings, bullet points, and summaries.
+
+6. PDF Creation:  
+   The generated notes are converted into a PDF document.
+
+7. Email Delivery: 
+   The PDF is automatically sent to users via email. 
 
 
 🛠️ Technologies Used:
