@@ -17,15 +17,15 @@ Automated Notes Generation From  Video is a system that automatically converts v
 🏗️ System Architecture:
 
 Input (Audio/Video)
-        ↓
+↓
 Audio Extraction (if video)
-        ↓
+↓
 Speech-to-Text (Whisper)
-        ↓
+↓
 AI Note Generation (LLM)
-        ↓
+↓
 PDF Creation
-        ↓
+↓
 Email Delivery
 
 
@@ -41,23 +41,23 @@ Email Delivery
 
 ⚙️ Installation:
 1. Clone the repository:
-   git clone https://github.com/ambika3115/Automated-Notes-Generation-From-Video.git
-   cd Automated_Notes_Generation_From_Video
+- git clone https://github.com/ambika3115/Automated-Notes-Generation-From-Video.git
+- cd Automated_Notes_Generation_From_Video
 
 2. Create virtual environment (windows):
-   python -m venv venv
-   venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 3. Install dependencies:
-   pip install -r requirements.txt
+- pip install -r requirements.txt
 
 4. Add `.env` file:
-   EMAIL_SENDER=your_email@gmail.com
-   EMAIL_PASSWORD=your_app_password
-   GEMINI_API_KEY=your_api_key
+- EMAIL_SENDER=your_email@gmail.com
+- EMAIL_PASSWORD=your_app_password
+-  GEMINI_API_KEY=your_api_key
 
 5. Run the application:
-   python app.py
+- python app.py
 
 
 7. ▶️ Usage:
