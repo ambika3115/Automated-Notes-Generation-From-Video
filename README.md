@@ -17,20 +17,15 @@ Automated Notes Generation From  Video is a system that automatically converts v
 🏗️ System Architecture:
 
 Input (Audio/Video)
-↓
-
+        ↓
 Audio Extraction (if video)
-↓
-
+        ↓
 Speech-to-Text (Whisper)
-↓
-
+        ↓
 AI Note Generation (LLM)
-↓
-
+        ↓
 PDF Creation
-↓
-
+        ↓
 Email Delivery
 
 
