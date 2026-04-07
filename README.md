@@ -38,46 +38,26 @@ Email Delivery
 - PDF Generation: FPDF  
 - Email Service: SMTP 
 
-📂 Project Structure:
-Automated Notes Generation From Video/
-│
-├── app.py
-├── agent.py
-├── .env
-├── requirements.txt
-│
-├── modules/
-│ ├── audio_extractor.py
-│ ├── transcriber.py
-│ ├── note_generator.py
-│ ├── pdf_generator.py
-│ ├── email_sender.py
-│
-├── outputs/
-│ ├── audio/
-│ ├── notes/
-
 
 ⚙️ Installation:
 1. Clone the repository:
-git clone https://github.com/ambika3115/Automated-Notes-Generation-From-Video.git
+   git clone https://github.com/ambika3115/Automated-Notes-Generation-From-Video.git
+   cd Automated_Notes_Generation_From_Video
 
-cd Automated_Notes_Generation_From_Video
+2. Create virtual environment (windows):
+   python -m venv venv
+   venv\Scripts\activate
 
-3. Create virtual environment (windows):
-python -m venv venv
-venv\Scripts\activate
+3. Install dependencies:
+   pip install -r requirements.txt
 
-4. Install dependencies:
-pip install -r requirements.txt
+4. Add `.env` file:
+   EMAIL_SENDER=your_email@gmail.com
+   EMAIL_PASSWORD=your_app_password
+   GEMINI_API_KEY=your_api_key
 
-5. Add `.env` file:
-EMAIL_SENDER=your_email@gmail.com
-EMAIL_PASSWORD=your_app_password
-GEMINI_API_KEY=your_api_key
-
-6. Run the application:
-python app.py
+5. Run the application:
+   python app.py
 
 
 7. ▶️ Usage:
