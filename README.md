@@ -15,7 +15,6 @@ Automated Notes Generation From  Video is a system that automatically converts v
 
 
 🏗️ System Architecture:
-
 Input (Audio/Video)
 ↓
 Audio Extraction (if video)
